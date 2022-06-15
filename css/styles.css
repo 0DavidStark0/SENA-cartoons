@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+/* font-family: 'Rock Salt', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: 'Pacifico', cursive; */
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+}
+.font60{
+  font-size: 60px;
+}
+
+.caja1{
+  font-family: 'Rock Salt', cursive;
+  width: 350px;
+  height: 310px;
+  background-color: pink;
+  border: 2px solid violet;
+  padding: 10px 30px;
+  margin: 10px;
+  background-image: url("/Primer_mes/15-16-junio/boxModel-FlexResponsiveColumns/images/pantera_rosa.gif");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.caja2{
+  font-family: 'Rock Salt', cursive;
+  width: 350px;
+  height: 310px;
+  background-color: yellow;
+  border: 2px solid black;
+  padding: 10px 30px;
+  margin: 10px;
+  background-image: url("/Primer_mes/15-16-junio/boxModel-FlexResponsiveColumns/images/simpsons.gif");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
